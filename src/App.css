@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 0 8rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  
+}
+
+.nav-container div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.nav-logo {
+  flex: 0.5;
+  
+  color: #F9FAF8;
+  font-size: 1.6rem;
+}
+
+.nav-links {
+  flex: 0.6;
+  justify-content: space-around;
+  color: #F9FAF8;
+  font-size: 0.9rem;
+}
+
+.hero-container {
+  display: flex;
+  height: 24rem;
+  padding: 4rem 0
+}
+
+.hero-container div {
+  flex: 1;
+  padding: 0 2rem;
+  margin: 0;
+  height: 225px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-para {
+  font-size: 1rem;
+  color: #E5E7EB;
+  font-weight: 300;
+  padding: 0.4rem 0
+}
+
+.hero-img-container {
+ 
+  background-image: url(../public/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.hero-img {
+  height: 100%;
+ 
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  padding: 0.2rem 1rem;
+  border-radius: 8px;
+  color: #E5E7EB;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 5rem;
+}
